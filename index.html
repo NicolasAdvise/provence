@@ -1,0 +1,199 @@
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Provence - Une adresse de caratères</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">    <style>
+        @font-face {
+            font-family: 'Moderat Mono Medium';
+            src: url('fonts/Moderat Mono Medium.otf') format('opentype');
+        }
+        @font-face {
+            font-family: 'Moderat Regular';
+            src: url('fonts/Moderat Regular.otf') format('opentype');
+        }
+        @font-face {
+            font-family: 'Roslinda Light';
+            src: url('fonts/RoslindaleCyrillicDisplayCondensed-Light.ttf') format('opentype');
+        }
+        @font-face {
+            font-family: 'Roslinda Light Italic';
+            src: url('fonts/RoslindaleCyrillicDisplayCondensed-LightItalic.ttf') format('opentype');
+        }
+        @font-face {
+            font-family: 'Roslinda Regular';
+            src: url('fonts/RoslindaleText-Regular.otf') format('opentype');
+        }
+        @font-face {
+            font-family: 'Roslinda Variable';
+            src: url('fonts/RoslindaleVariableDisplay-VF.ttf') format('opentype');
+        }
+        .border-tb{
+            border-bottom: 2px solid #030405 ;
+            border-top: 2px solid #030405;
+            padding: 20px 0;
+        }
+        @media (min-width: 576px) {
+            html, body {
+                height: 100%;
+                margin: 0;
+                overflow-x: hidden;
+            }
+        }
+        @media screen and (min-width: 771px) and (max-width: 1080px) {
+            .project .img-container {
+                width:80%
+            }
+
+        }
+        @media screen and (min-width: 1312px) and (max-width: 1470px) {
+            .contact {
+                font-size: 0.8em!important;
+            }
+        }
+        @media screen and (min-width: 1155px) and (max-width: 1311px) {
+            .contact {
+                font-size: 0.7em!important;
+            }
+        }
+        @media screen and (min-width: 992px) and (max-width: 1154px) {
+            .contact {
+                font-size: 0.6em!important;
+            }
+            .address {
+                font-size: 1.3em!important;
+            }
+        }
+        .address{
+            font-size: 1.6rem;
+        }
+        a {
+            text-decoration: none;
+            color: #030405;
+        }
+        a:hover {
+            color: #030405;
+        }
+        .contact {
+            display: flex;
+            align-items: flex-start;
+            flex-direction: column;
+            padding: 1em 0;
+            font-size: 0.9em;
+            font-family: 'Moderat Mono Medium'
+        }
+        .contact img {
+            //margin-right: 10px;
+        }
+        .project{
+            position: relative;
+            bottom: 0!important;
+            font-size: 1.3em;
+        }
+    </style>
+</head>
+<body class="flex row">
+    <div class="d-none d-lg-flex">
+    <div class=" col-md-6 col-lg-6 d-flex align-items-center">
+        <img class="img-fluid mx-auto" style="max-width: 80%" src="img/provence.png">
+    </div>
+    <div class="col-6 col-md-6 col-lg-6 d-flex align-items-center" style="flex-wrap:wrap;background-color: #EDE5D1; opacity: 1;">
+        <!--<div class="col-6" style="min-height: 5%"></div>-->
+        <div class="d-flex align-items-center col-10" style="padding-top:1em;">
+            <img class="img-fluid col-10" style="" src="img/provence-logo.png">
+        </div>
+        <div class="col-12 d-flex flex-row justify-content-between">
+            <div class="col-6  d-flex flex-column justify-content-between">
+                <div>
+                    <p style="font-size: 3.5em; font-family: 'Roslinda Light';">4 400 m²</p>
+                    <p style="font-size: 1.4em; font-family: 'Roslinda Regular';">de bureaux <br>de caractères</p>
+                    <a href="" target="_blank"><img src="img/arrow.svg"></a>
+                </div>
+                <div class="project">
+                    <p>UN PROJET</p>
+                    <div class="img-container">
+                    <img class="img-fluid" style="padding-top:10px" src="img/sg.svg">
+                    </div>
+                </div>
+            </div>
+            <div class="col-6">
+                <div class="address" style="padding: 20px 0;">
+                    <p style="font-family: 'Roslinda Light';">33 rue de Provence, Paris IX<br>
+                        <span style="font-family: 'Roslinda Light Italic'; ">À découvrir prochainement</span>
+                    </p>
+                </div>
+                <div class="border-tb">
+                    <p style="font-size: 1.2em; font-family: 'Moderat Mono Medium'">CONTACTS</p>
+                    <div class="contact" style="padding-top: 10px!important">
+                        <img src="img/bnp.svg" style="width:">
+                        <a href="mailto:caroline.demoncan@realestate.bnpparibas">caroline.demoncan@realestate.bnpparibas</a>
+                    </div>
+                    <div class="contact">
+                        <img src="img/colliers.svg">
+                        <a href="mailto:anastasia.pereda@colliers.com">anastasia.pereda@colliers.com</a>
+                    </div>
+                    <div class="contact">
+                        <img src="img/kinghtfrank.svg">
+                        <a href="mailto:alexandre.melina@fr.knightfrank.com">alexandre.melina@fr.knightfrank.com</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-6" style="min-height: 5%"></div>
+        </div>
+    </div>
+    </div>
+    <div class="col d-lg-none">
+        <div class=" col-12 justify-content-center align-items-center">
+            <img class="img-fluid mx-auto" style="padding:10%" src="img/provence.png">
+        </div>
+        <div class="col-12 align-items-center" style="background-color: #EDE5D1 ; opacity: 1;">
+            <div class="col-12" style="min-height: 5%"></div>
+            <div class="d-flex align-items-center col-12" style="">
+                <div class="col-12  d-flex flex-column justify-content-between">
+                    <img class="img-fluid col-10" style="padding: 40px 0 30px 0" src="img/provence-logo.png">
+                </div>
+            </div>
+            <div  class="col-12 justify-content-between">
+                <div class="col-12  d-flex flex-column justify-content-between">
+                    <div>
+                        <p style="font-size: 4.3em; font-family: 'Roslinda Light';margin : 0;">4 400 m²</p>
+                        <p style="font-size: 2em; font-family: 'Roslinda Regular';">de bureaux <br>de caractères</p>
+                        <a href="" target="_blank" style="padding-top: 30px"><img src="img/arrow.svg"></a>
+                    </div>
+                    <div style="padding: 80px 0 40px 0;">
+                        <p style="font-family: 'Roslinda Light'; font-size: 1.7em">33 rue de Provence, Paris IX<br>
+                            <span style="font-family: 'Roslinda Light Italic'; font-size: 1em ">À découvrir prochainement</span>
+                        </p>
+                    </div>
+                    <div class="project" style="padding-bottom: 40px;">
+                        <p style="padding-bottom: 20px">UN PROJET</p>
+                        <img src="img/sg.svg" style="min-height: 30px!important; padding-bottom: 20px;">
+
+                    </div>
+                </div>
+                <div class="col-12">
+
+                    <div class="border-tb" style="padding-bottom:30px; margin-bottom: 50px;">
+                        <p style="font-size: 1.3em; font-family: 'Moderat Mono Medium'">CONTACTS</p>
+                        <div class="contact" style="padding-top: 10px!important">
+                            <img src="img/bnp.svg">
+                            <a href="mailto:caroline.demoncan@realestate.bnpparibas">caroline.demoncan@realestate.bnpparibas</a>
+                        </div>
+                        <div class="contact">
+                            <img src="img/colliers.svg">
+                            <a href="mailto:anastasia.pereda@colliers.com">anastasia.pereda@colliers.com</a>
+                        </div>
+                        <div class="contact">
+                            <img src="img/kinghtfrank.svg">
+                            <a href="mailto:alexandre.melina@fr.knightfrank.com">alexandre.melina@fr.knightfrank.com</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12" style="min-height: 5%; padding-bottom: 30px:"></div>
+        </div>
+    </div>
+</body>
+</html>
